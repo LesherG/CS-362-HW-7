@@ -1,0 +1,6 @@
+Using the feature of when a user posts a tweet, it is linked to the account. The tweet linked can be seen if you go to the user's page and view their tweets
+
+I would implement this using Test-Driven development by writing a test to first make a tweet with a dummy account. Then, it would scan the dummy account's webpage for the tweet. If it is found it would return that the test has been successful. If anything else goes wrong it will return that the test is unsuccessful.
+Then, I would run the test, and confirm that it returns unsuccessful.
+Then, I would implement the functionality for this test, linking a tweet posted to a user's page.
+Finally, I would run the test again, confirming that it returns successful.
