@@ -5,7 +5,9 @@ def fizz_buzz(num1, num2):
         if(i != num1):
             ret += ", "
         
-        if(i % 3 == 0):
+        if(i % 3 == 0 and i % 5 == 0):
+            ret += 'FizzBuzz'
+        elif(i % 3 == 0):
             ret += 'Fizz'
         elif(i % 5 == 0):
             ret += 'Buzz'
