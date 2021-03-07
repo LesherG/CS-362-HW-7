@@ -17,3 +17,4 @@ class TestCode(unittest.TestCase):
 if __name__ == '__main__':
     
     unittest.main()
+    print(code.fizz_buzz(1,100))
