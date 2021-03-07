@@ -11,6 +11,11 @@ class TestCode(unittest.TestCase):
         self.assertTrue(code.leap_year(4))
         self.assertTrue(code.leap_year(16))
         
+    def test_mult_of_100(self):
+        self.assertFalse(code.leap_year(300))
+        self.assertFalse(code.leap_year(600))
+        self.assertTrue(code.leap_year(204))
+        
         
 if __name__ == '__main__':
     unittest.main()
